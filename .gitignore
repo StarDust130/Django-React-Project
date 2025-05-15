@@ -1,0 +1,38 @@
+env/
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+env/
+*.env
+db.sqlite3
+*.mo
+*.migrations/
+
+# Django specific
+*.secret
+*.pem
+*.db
+
+# VS Code
+.vscode/
+
+# === Node / React (frontend) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.next
+frontend/.turbo
+
+# === macOS / Windows ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Other ===
+*.swp
+.idea/
